@@ -1,0 +1,97 @@
+h1 a, h2 a {
+    color:#B50605;
+    font-family: 'Calibri';
+    }
+body {
+    padding-left: 15px;
+    
+}
+
+.page-header {
+    background-color: #B50605;
+    margin-top: 0;
+    height: 293px; 
+    padding: 0px -1px 0px 0px; 
+    background-image: url("http://127.0.0.1:8000/static/img/Imagem_Topo_Blog4.png"); 
+    background-size: auto; 
+    background-origin: content-box;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 40px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;
+}
+
+.date {
+    color: #828282;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 40px;
+}
+
+.post {
+    margin-bottom: 70px;
+    text-align: left;
+}
+
+.post h2 a, .post h2 a:visited {
+    color: #828282;
+    text-align: center;
+    background-size: 300px 100px;
+}
+
+h2 {
+   text-align: center;  
+}
+
+.btn-primary {
+    display: block;
+    height: 40px;
+    width: 100px;
+    padding: 0 20px;
+    background-color: #005693;
+    white-space: normal;
+    font-size: .875em;
+    line-height: 40px;
+    color: #fff;
+    text-align: left;
+    border: none;
+}
+
+.botao-produto-home {
+    color:rgb(204, 30, 38);
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.1);
+    display: inline-block;
+    padding-left: 10px;
+    border-radius: 20px;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    transition: all ease .3s;
+}
+
+.botao-produto-home > span {
+    float: left;
+    margin-top: 5px;
+}
